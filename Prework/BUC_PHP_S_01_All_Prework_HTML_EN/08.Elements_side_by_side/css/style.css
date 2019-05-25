@@ -1,0 +1,24 @@
+#first-div {
+    float: left;
+}
+
+#second-div {
+    float: right;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+p {
+    display: inline;
+    margin-right: 2px;
+    width: 80px;
+    border: 2px dotted red;
+}
+
+.clearfix {
+    clear: both;
+}

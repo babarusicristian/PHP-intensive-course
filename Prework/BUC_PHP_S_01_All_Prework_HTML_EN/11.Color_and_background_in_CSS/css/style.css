@@ -1,0 +1,31 @@
+.first {
+    background-color: #0F4B88;
+    background-color: rgba(15,75, 136, .4);
+}
+
+.second {
+    background-color: orange;
+    opacity: 0.4;
+}
+
+.gradient {
+    width: 350px;
+    height: 350px;
+    background: #93cede;/* Old Browsers */
+    background-image: linear-gradient(0deg, #93cede,#75bdd1, #49a5bf); /* for the rest of browser with older version*/
+    background: -moz-linear-gradient(bottom, #93cede 0%, #75bdd1 41%, #49a5bf 100%); /* FF3.6+ */
+    background: -webkit-linear-gradient(bottom, #93cede 0%, #75bdd1 41%, #49a5bf 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(bottom, #93cede 0%, #75bdd1 41%, #49a5bf 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(bottom, #93cede 0%, #75bdd1 41%, #49a5bf 100%); /* IE 10+ */
+    background: linear-gradient(to bottom, #93cede 0%, #75bdd1 41%, #49a5bf 100%);/* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf', GradientType=0 ); /* 0 for vertical, 1 for horizontal */
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("../images/food.jpg");
+    background-position: center;
+}

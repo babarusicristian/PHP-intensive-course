@@ -1,0 +1,47 @@
+#span1 {
+    color: orange;
+}
+
+#span2 {
+    color: violet;
+}
+
+#word1 {
+    color: red;
+}
+
+#word2 {
+    color: green;
+}
+
+#word3 {
+    color: darkkhaki;
+}
+
+#other1 {
+    color: #990000;
+    background-color: red;
+}
+
+#other2 {
+    color: rgba(153,237,98, 100);
+    background-color: yellow;
+}
+
+#other3 {
+    color: hsl(180, 50%, 50%);
+    background-color: blue;
+}
+
+.container {
+    background-color: darkkhaki;
+    width: 200px;
+}
+
+.first {
+    width: 50%;
+}
+
+.second {
+    width: 10em;
+}

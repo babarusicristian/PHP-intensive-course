@@ -1,0 +1,23 @@
+body {
+    background: blue; /* changed the background color of the body. I noticed that has a similar effect as the background-color css tag */
+}
+
+p {
+    color: brown;
+}
+
+#first-paragraph {
+    color: green;
+}
+
+#second-paragraph {
+    color: violet;
+}
+
+.block {
+    width: 100px;
+    height: 50px;
+    border: 3px;
+    border-style: solid;
+    border-color: red;
+}

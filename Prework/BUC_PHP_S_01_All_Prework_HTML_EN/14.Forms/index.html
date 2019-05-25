@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 14</title>
+    <style>
+        .contactForm label {
+            color: gray;
+            font-size: x-large;
+            font-weight: bold;
+        }
+
+        .myLenght, .rentCarForm {
+            width: 500px;
+        }
+
+        div form textarea, div input, form label {
+            display: block;
+        }
+
+        .special {
+            margin-top: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="tricky">
+        <form class="contactForm">
+            <label>Your Name:
+                <input class="myLenght" type="text" name="txtContactFormName" placeholder="Your name">
+            </label>
+            <label>Your Email Adddress:
+                <input class="myLenght" type="email" name="txtContactFormEmail" placeholder="Your e-mail">
+            </label>
+            <label>Your message:
+                <textarea class="myLenght" cols="50" rows="5" name="txtContactFormMessage" placeholder="Please describe your question or comment"></textarea>
+            </label>
+            <input class="special" type="submit" name="btnContactFormSend" value="Send">
+        </form>
+    </div>
+    <h1>Car rental</h1>
+    <form class="rentCarForm">
+        <fieldset>
+            <legend>Choose car class</legend>
+            <label>
+                <input type="radio" name="radioGroup1" value="mini"> mini
+            </label>
+            <label>
+                <input type="radio" name="radioGroup1" value="economy"> economy
+            </label>
+            <label>
+                <input type="radio" name="radioGroup1" value="compact"> compact
+            </label>
+            <label>
+                <input type="radio" name="radioGroup1" value="SUV"> SUV
+            </label>
+            <label>
+                <input type="radio" name="radioGroup1" value="VAN"> VAN
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Choose optional equipment</legend>
+            <label>
+                <input type="checkbox" name="checkBoxGroup1" value="child seat"> child seat
+            </label>
+            <label>
+                <input type="checkbox" name="checkBoxGroup1" value="GPS" checked> GPS
+            </label>
+            <label>
+                <input type="checkbox" name="checkBoxGroup1" value="DVD player"> DVD player
+            </label>
+        </fieldset>
+        <label>Rental start date
+            <input type="date" name="txtDate" value="rrrr-mm-dd">
+        </label>
+        <label>Number of days
+            <input type="number" name="txtNumberOfDays">
+        </label>
+        <label>Your password
+            <input type="password" name="txtPassword">
+        </label>
+        <input type="submit" name="btnOrderNow" value="Order now!">
+    </form>
+</body>
+</html>
