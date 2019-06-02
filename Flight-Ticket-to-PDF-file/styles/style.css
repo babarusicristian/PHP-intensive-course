@@ -1,0 +1,26 @@
+body {
+    background-image: url("../images/backgroundflights.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p, label {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.foot-text {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.error-msg {
+    text-align: center;
+    text-decoration: underline;
+    color: lightpink;
+}

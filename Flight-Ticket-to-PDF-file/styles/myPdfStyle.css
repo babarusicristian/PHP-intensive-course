@@ -1,0 +1,42 @@
+th, td, tr, thead {
+    border: 1px solid black;
+}
+
+#tableTitle {
+    font-size: 45px;
+    color: #FFCC33;
+}
+
+.fromTo {
+    font-weight: bold;
+    padding: 10px;
+    font-size: small;
+}
+
+.dest {
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.onlyBold {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.dateHours {
+    padding: 10px;
+}
+
+.onlySize {
+    padding: 10px;
+    font-size: 25px;
+}
+
+.red {
+    color: #EF472B;
+}
+
+.green {
+    color: #43810B;
+}
